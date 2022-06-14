@@ -55,12 +55,12 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
-      - name: Run Nox sessions
-        # Add env variables: -e VAR=${{ secrets.VAR }} || Access using os.environ["VAR"], remove escapes
-        run: |
-          docker run --rm \
-          -v `pwd`:/code \
-          dinewith:ci nox --force-color
+      #      - name: Run Nox sessions
+      #        # Add env variables: -e VAR=${{ secrets.VAR }} || Access using os.environ["VAR"], remove escapes
+      #        run: |
+      #          docker run --rm \
+      #          -v `pwd`:/code \
+      #          dinewith:ci nox --force-color
 
       - name: Upload coverage data
         uses: "actions/upload-artifact@v3.1.0"
