@@ -2,7 +2,6 @@
 import os
 import shutil
 from pathlib import Path
-from typing import List
 
 import nox
 import toml
@@ -11,7 +10,7 @@ from nox import Session
 package = "dinewith"
 python_versions = ["3.9"]
 nox.needs_version = ">= 2021.6.6"
-nox.options.sessions = ("docs-build")  # "tests", "xdoctest",
+nox.options.sessions = ("docs-build",)  # "tests", "xdoctest",
 pyproject_data = toml.loads(Path("pyproject.toml").read_text())
 submodule_paths = []
 if os.path.exists(".gitmodules"):

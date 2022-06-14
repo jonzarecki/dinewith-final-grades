@@ -158,6 +158,8 @@ disable=abstract-method,
         unused-variable,  # covered by flake8
         unused-argument,  # covered by flake8
         unused-import,    # covered by flake8
+        undefined-loop-variable,
+        unnecessary-lambda,
 
 [REPORTS]
 

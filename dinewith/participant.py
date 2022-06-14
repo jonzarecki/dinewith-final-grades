@@ -5,25 +5,20 @@ from typing import Dict
 @dataclass
 class Participant:
     name: str
-    food_grades: Dict["Participant", int] = field(default_factory=lambda: dict())
-    hagasha_grades: Dict["Participant", int] = field(default_factory=lambda: dict())
-    hospitality_grades: Dict["Participant", int] = field(default_factory=lambda: dict())
+    food_grades: Dict["Participant", int] = field(default_factory=lambda: dict())  # pylint
+    hagasha_grades: Dict["Participant", int] = field(default_factory=lambda: dict())  # noqa
+    hospitality_grades: Dict["Participant", int] = field(default_factory=lambda: dict())  # noqa
 
-    def __hash__(self):
+    def __hash__(self) -> int:
         return hash(self.name)
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return self.name
 
     def _get_norm_grades(self, grades: Dict["Participant", int]) -> Dict["Participant", float]:
         sum_grades = max(1.0, sum(grades.values()))
-        norm_factor = float(7 * len(grades)) / sum_grades if all(v != 0 for v in grades.values()) else 1.
+        norm_factor = float(7 * len(grades)) / sum_grades if all(v != 0 for v in grades.values()) else 1.0
 
-        for (part, grade) in grades.items():
-            if norm_factor * grade == 14.0:
-                print(grades)
-                print(self.name)
-                print(norm_factor, grade)
         return {part: grade * norm_factor for (part, grade) in grades.items()}
 
     @property
