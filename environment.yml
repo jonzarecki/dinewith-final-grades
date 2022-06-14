@@ -4,38 +4,10 @@ channels:
   - defaults
 
 dependencies:
-  - python=3.8
+  - python=3.9
   - pip
-  # Core scientific python
-  #  - numpy
-  #  - matplotlib
-  #  - seaborn
-  #  - scikit-learn
-  #  - scikit-image
-  #
-  #  # Deep Learning
-  #  - pytorch=>1.6
-  #  - pytorch-lightning=>1.1
-  #  - torchvision
-  #  - cudatoolkit
-  #
-  #  # Jupyter Environment
-  #  - notebook
-  #  - ipython
-  #  - jupyter_contrib_nbextensions
-  #  - jupyterlab
-  #  - jupyter
-  #  - nb_conda
-  #
-  #  # Web app / visualization
-  #  - bokeh>2
-  #  - holoviews
 
   - pip:
       - loguru
       - streamlit-aggrid
       - streamlit
-#      - wandb
-#      - panel
-#      - pathos
-#      - sqlfluff # for sql linting
