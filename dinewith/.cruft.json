@@ -1,0 +1,24 @@
+{
+  "template": "https://github.com/jonzarecki/cookiecutter-test",
+  "commit": "887d635d0b2ccd31c2b360a245d1e7a82a6feabe",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "dinewith",
+      "package_name": "dinewith",
+      "friendly_name": "Dine With Friends (of Friends)",
+      "author": "Jonathan Zarecki",
+      "email": "mail@jonzarecki.com",
+      "github_user": "jonzarecki",
+      "version": "0.0.0",
+      "license": "MIT",
+      "development_status": "Development Status :: 1 - Planning",
+      "_copy_without_render": [
+        "*.html",
+        "**docs/source/_templates/**"
+      ],
+      "_template": "https://github.com/jonzarecki/cookiecutter-test"
+    }
+  },
+  "directory": null
+}
