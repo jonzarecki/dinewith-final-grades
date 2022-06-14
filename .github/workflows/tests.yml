@@ -74,9 +74,9 @@ jobs:
           name: docs
           path: docs/_build
 
-      - name: Create coverage report
-        run: |
-          docker run -v `pwd`:/code  dinewith:ci nox --force-color --session=coverage -- xml
+      #      - name: Create coverage report
+      #        run: |
+      #          docker run -v `pwd`:/code  dinewith:ci nox --force-color --session=coverage -- xml
 
       - name: Upload coverage report
         uses: codecov/codecov-action@v3.1.0
