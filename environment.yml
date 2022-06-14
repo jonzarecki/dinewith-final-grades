@@ -7,10 +7,10 @@ channels:
 dependencies:
   - python=3.8
   - pip
-#  # Core scientific python
+  # Core scientific python
 #  - numpy
-#  - matplotlib
-#  - seaborn
+  - matplotlib
+  - seaborn
 #  - scikit-learn
 #  - scikit-image
 #
@@ -34,8 +34,9 @@ dependencies:
 
   - pip:
     - loguru
+    - streamlit-aggrid
+    - streamlit
 #      - wandb
 #      - panel
-#      - streamlit
 #      - pathos
 #      - sqlfluff # for sql linting
