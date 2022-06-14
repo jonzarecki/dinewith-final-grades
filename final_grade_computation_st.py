@@ -46,32 +46,32 @@ for p in participants:
     p.hagasha_grades = build_grades_dict("hagasha")
     p.hospitality_grades = build_grades_dict("hospitality")
 
+
+def display_grades(norm_grades_f, grades_attr_name) -> None:  # type: ignore
+    """Displays normalized and non-normalized grades for a category."""
+    st.subheader(f"{grades_attr_name} grades")
+    grades = pd.DataFrame(
+        {
+            p.name: [p.__dict__[f"{grades_attr_name}_grades"][p_o] if p_o != p else 0.0 for p_o in participants]
+            for p in participants
+        },
+        index=[p.name for p in participants],
+    )
+    grades["total_score"] = grades.sum(axis=1)
+    st.table(grades)
+    st.text("Normalized:")
+    norm_grades = pd.DataFrame(
+        {p.name: [norm_grades_f(p)[p_o] if p_o != p else 0.0 for p_o in participants] for p in participants},
+        index=[p.name for p in participants],
+    )
+    norm_grades["total_score"] = norm_grades.sum(axis=1)
+
+    st.table(norm_grades)
+
+
+display_grades(Participant.norm_food_grades, "food")
+display_grades(Participant.norm_hagasha_grades, "hagasha")
+display_grades(Participant.norm_hospitality_grades, "hospitality")
+
+st.subheader("Reported grades - for review")
 st.table(part_grades_new)
-
-# food final grades
-
-st.subheader("food grades")
-norm_grades = pd.DataFrame(
-    {p.name: [p.norm_food_grades[p_o] if p_o != p else 0.0 for p_o in participants] for p in participants},
-    index=[p.name for p in participants],
-)
-norm_grades["total_score"] = norm_grades.sum(axis=1)
-st.table(norm_grades)
-
-# hagasha final grades
-st.subheader("hagasha grades")
-norm_grades = pd.DataFrame(
-    {p.name: [p.norm_hagasha_grades[p_o] if p_o != p else 0.0 for p_o in participants] for p in participants},
-    index=[p.name for p in participants],
-)
-norm_grades["total_score"] = norm_grades.sum(axis=1)
-st.table(norm_grades)
-
-# hospitality final grades
-st.subheader("hospitality grades")
-norm_grades = pd.DataFrame(
-    {p.name: [p.norm_hospitality_grades[p_o] if p_o != p else 0.0 for p_o in participants] for p in participants},
-    index=[p.name for p in participants],
-)
-norm_grades["total_score"] = norm_grades.sum(axis=1)
-st.table(norm_grades)

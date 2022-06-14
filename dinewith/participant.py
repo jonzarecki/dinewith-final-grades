@@ -21,14 +21,11 @@ class Participant:
 
         return {part: grade * norm_factor for (part, grade) in grades.items()}
 
-    @property
     def norm_food_grades(self) -> Dict["Participant", float]:
         return self._get_norm_grades(self.food_grades)
 
-    @property
     def norm_hagasha_grades(self) -> Dict["Participant", float]:
         return self._get_norm_grades(self.hagasha_grades)
 
-    @property
     def norm_hospitality_grades(self) -> Dict["Participant", float]:
         return self._get_norm_grades(self.hospitality_grades)
