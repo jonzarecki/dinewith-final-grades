@@ -32,10 +32,10 @@ dependencies:
 #  - bokeh>2
 #  - holoviews
 
-  - pip:
-    - loguru
-    - streamlit-aggrid
-    - streamlit
+- pip:
+  - loguru
+  - streamlit-aggrid
+  - streamlit
 #      - wandb
 #      - panel
 #      - pathos
