@@ -9,8 +9,8 @@ dependencies:
   - pip
   # Core scientific python
 #  - numpy
-  - matplotlib
-  - seaborn
+#  - matplotlib
+#  - seaborn
 #  - scikit-learn
 #  - scikit-image
 #
