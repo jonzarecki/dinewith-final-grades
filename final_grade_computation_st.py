@@ -5,8 +5,6 @@ import pandas as pd
 import streamlit as st
 from st_aggrid import AgGrid
 
-import sys
-sys.path.append("../")
 from dinewith.participant import Participant
 
 st.title("Final Grade Computation")
@@ -69,4 +67,3 @@ norm_grades = pd.DataFrame(
      participants}, index=[p.name for p in participants])
 norm_grades["total_score"] = norm_grades.sum(axis=1)
 st.table(norm_grades)
-
