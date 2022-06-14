@@ -1,6 +1,5 @@
 name: dinewith
 channels:
-  - pytorch
   - conda-forge
   - defaults
 
