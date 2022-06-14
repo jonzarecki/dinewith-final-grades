@@ -16,8 +16,9 @@ class Participant:
         return self.name
 
     def _get_norm_grades(self, grades: Dict["Participant", int]) -> Dict["Participant", float]:
-        sum_grades = max(1.0, sum(grades.values()))
-        norm_factor = float(7 * len(grades)) / sum_grades if all(v != 0 for v in grades.values()) else 1.0
+        rel_grades = {p: g for (p, g) in grades.items() if g != 0}  # relevant is non-zero
+        sum_grades = max(1.0, sum(rel_grades.values()))
+        norm_factor = float(7 * len(rel_grades)) / sum_grades
 
         return {part: grade * norm_factor for (part, grade) in grades.items()}
 
