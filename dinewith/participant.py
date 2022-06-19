@@ -5,6 +5,8 @@ from typing import Dict
 @dataclass
 class Participant:
     name: str
+    is_grader: bool  # not used atm, for clarity in objects
+    is_gradee: bool  # not used atm, for clarity in objects
     food_grades: Dict["Participant", int] = field(default_factory=lambda: dict())  # pylint
     hagasha_grades: Dict["Participant", int] = field(default_factory=lambda: dict())  # noqa
     hospitality_grades: Dict["Participant", int] = field(default_factory=lambda: dict())  # noqa
