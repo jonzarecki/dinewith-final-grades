@@ -12,7 +12,9 @@ st.title("Final Grade Computation")
 singles_group = st.checkbox("קבוצת יחידים?", value=True)
 
 participants_num = int(st.number_input("מה מספר המשתתפים?", value=4))
-assert not (not singles_group and participants_num % 2 != 0), "מס' המשתתפים בקבוצות זוגיות צריך להיות זוגי!"
+if not singles_group and participants_num % 2 != 0:
+    st.error("מס' המשתתפים בקבוצות זוגיות צריך להיות זוגי!")
+    st.stop()
 
 graders: List[Participant] = []
 gradees: List[Participant] = []
