@@ -1,0 +1,69 @@
+<ac:structured-macro ac:name="info" ac:schema-version="1" ac:macro-id="3b4dae2b-917f-45e4-b272-5a01e7c6327d"><ac:rich-text-body>
+<h2>Meeting overview</h2>
+<p><ac:placeholder>Provide a brief overview of what this meeting is about and any other information that might be helpful to attendees.</ac:placeholder></p>
+<ul>
+<li>
+<p>Meeting goals</p></li>
+<li>
+<p>Key attendees</p></li>
+<li>
+<p>Processes</p></li></ul></ac:rich-text-body></ac:structured-macro>
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":white_check_mark:" ac:emoji-id="2705" ac:emoji-fallback="✅" /> Open action items</h2>
+<p><ac:placeholder>Type /task report to aggregate open action items across your meetings. You will need to publish this page first. In the macro fields, only specify this page so that only action items relevant to this page are shown.</ac:placeholder></p>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":pencil:" ac:emoji-id="1f4dd" ac:emoji-fallback="📝" /> Meeting minutes</h2>
+<p><ac:placeholder>Use color to help distinguish minutes of one meeting from another.</ac:placeholder></p>
+<table data-layout="default"><colgroup><col style="width: 104.0px;" /><col style="width: 93.0px;" /><col style="width: 256.0px;" /><col style="width: 307.0px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#fffae6">
+<p><ac:inline-comment-marker ac:ref="32ef0c8b-2304-4289-bdb5-7da11aa4113a"><strong>Date</strong></ac:inline-comment-marker></p></th>
+<th data-highlight-colour="#fffae6">
+<p><ac:inline-comment-marker ac:ref="32ef0c8b-2304-4289-bdb5-7da11aa4113a"><strong>Attendees</strong></ac:inline-comment-marker></p></th>
+<th data-highlight-colour="#fffae6">
+<p><ac:inline-comment-marker ac:ref="32ef0c8b-2304-4289-bdb5-7da11aa4113a"><strong>Agenda</strong></ac:inline-comment-marker></p></th>
+<th data-highlight-colour="#fffae6">
+<p><strong>Notes, decisions and action items</strong></p></th></tr>
+<tr>
+<td rowspan="3">
+<p><ac:placeholder>Type // to add date.</ac:placeholder></p></td>
+<td rowspan="3">
+<p><ac:placeholder>@mention names to add attendees.</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>Add agenda items in priority order so that you get through the most important items first.</ac:placeholder></p></td>
+<td><ac:task-list>
+<ac:task>
+<ac:task-id>1</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body><span class="placeholder-inline-tasks"><ac:placeholder>Type /action item to add and assign tasks.</ac:placeholder></span></ac:task-body>
+</ac:task>
+</ac:task-list><ac:adf-extension><ac:adf-node type="decision-list"><ac:adf-attribute key="local-id">ee6ff214-347a-4fce-b004-558e1c32bc28</ac:adf-attribute><ac:adf-node type="decision-item"><ac:adf-attribute key="state">DECIDED</ac:adf-attribute><ac:adf-attribute key="local-id">59c96841-d2fb-4040-bbf5-3077c649bd19</ac:adf-attribute><ac:adf-content><ac:placeholder>Type /decision to record a decision made in the meeting.</ac:placeholder></ac:adf-content></ac:adf-node></ac:adf-node><ac:adf-fallback></ac:adf-fallback></ac:adf-extension></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td data-highlight-colour="#f4f5f7">
+<p /></td>
+<td data-highlight-colour="#f4f5f7">
+<p /></td>
+<td data-highlight-colour="#f4f5f7">
+<p /></td>
+<td data-highlight-colour="#f4f5f7">
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>
+<p />

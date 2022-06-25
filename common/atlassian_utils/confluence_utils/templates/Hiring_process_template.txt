@@ -1,0 +1,228 @@
+<ac:adf-extension><ac:adf-node type="panel"><ac:adf-attribute key="panel-type">note</ac:adf-attribute><ac:adf-content>
+<p>This template is brought to you by Indeed, a leading job search engine.</p></ac:adf-content></ac:adf-node><ac:adf-fallback>
+<div class="panel conf-macro output-block" style="background-color: rgb(234,230,255);border-color: rgb(153,141,217);border-width: 1.0px;">
+<div class="panelContent" style="background-color: rgb(234,230,255);">
+
+<p>This template is brought to you by Indeed, a leading job search engine.</p>
+</div></div></ac:adf-fallback></ac:adf-extension>
+<p />
+<table data-layout="default"><colgroup><col style="width: 163.0px;" /><col style="width: 328.0px;" /></colgroup>
+<tbody>
+<tr>
+<th>
+<p><strong>Hiring manager</strong></p></th>
+<td>
+<p><ac:placeholder>@ mention the hiring manager</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><strong>Recruiting lead</strong></p></th>
+<td>
+<p><ac:placeholder>@ Recruiting lead</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><strong>Interviewers</strong></p></th>
+<td><ac:task-list>
+<ac:task>
+<ac:task-id>1</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body><span class="placeholder-inline-tasks"><ac:placeholder>@ Interview panelist 1</ac:placeholder></span></ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>2</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body><span class="placeholder-inline-tasks"><ac:placeholder>@ Interview panelist 2</ac:placeholder></span></ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>3</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body><span class="placeholder-inline-tasks"><ac:placeholder>&hellip;</ac:placeholder></span></ac:task-body>
+</ac:task>
+</ac:task-list></td></tr>
+<tr>
+<th>
+<p><strong>Job title</strong></p></th>
+<td>
+<p><ac:placeholder>e.g., Sr. Business Analyst</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><strong>Job level</strong></p></th>
+<td>
+<p><ac:placeholder>e.g., P6</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><strong>Job rec link</strong></p></th>
+<td>
+<p><ac:placeholder>e.g., https://www.indeed.jobs/</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><strong>Job location</strong></p></th>
+<td>
+<p><ac:placeholder>e.g., San Francisco</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><strong>Target hire deadline</strong></p></th>
+<td>
+<p><time datetime="2021-09-12" /></p></td></tr>
+<tr>
+<th>
+<p><strong>Referrer</strong></p></th>
+<td>
+<p><ac:placeholder>@ mention the referrer</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><strong>On this page</strong></p></th>
+<td><ac:structured-macro ac:name="toc" ac:schema-version="1" data-layout="default" ac:macro-id="489fc3e0-6216-408b-a3ce-fbd0cead32c1" /></td></tr></tbody></table>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":clipboard:" ac:emoji-id="1f4cb" ac:emoji-fallback="📋" /> Role overview</h2>
+<p><ac:placeholder>Give a brief description of the role.</ac:placeholder></p>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":ok_hand:" ac:emoji-id="1f44c" ac:emoji-fallback="👌" /> Role profile</h2>
+<p><ac:placeholder>Include the key attributes required for the candidate. Confirm which attributes are required and which attributes are more 'nice to have' or teachable on the job.</ac:placeholder></p>
+<table data-layout="default"><colgroup><col style="width: 156.0px;" /><col style="width: 604.0px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#fffae6">
+<p><strong>Must-haves</strong></p></th>
+<th data-highlight-colour="#ffffff">
+<ul>
+<li>
+<p><ac:placeholder>Think about which skills are mandatory or the absolute minimum experience.</ac:placeholder></p></li></ul></th></tr>
+<tr>
+<th data-highlight-colour="#fffae6">
+<p><strong>Nice to haves</strong></p></th>
+<td>
+<ul>
+<li>
+<p><ac:placeholder>Which skills are preferred? e.g., industry-specific experience.</ac:placeholder></p></li></ul></td></tr>
+<tr>
+<th data-highlight-colour="#fffae6">
+<p><strong>Selling points</strong></p></th>
+<td>
+<ul>
+<li>
+<p><ac:placeholder>How would you sell this role and this team to a potential candidate?</ac:placeholder></p></li></ul></td></tr></tbody></table>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":roller_coaster:" ac:emoji-id="1f3a2" ac:emoji-fallback="🎢" /> Assessment process</h2>
+<p><ac:placeholder>Outline what the assessment process will look like for this particular role, and @mention panel members for interviews. You can also include suggested screening questions.</ac:placeholder></p>
+<table data-layout="default"><colgroup><col style="width: 226.67px;" /><col style="width: 226.67px;" /><col style="width: 226.67px;" /></colgroup>
+<tbody>
+<tr>
+<th>
+<p><strong>Interview stage</strong></p></th>
+<th>
+<p><strong>Who is involved</strong></p></th>
+<th>
+<p><strong>Details / Sample Questions</strong></p></th></tr>
+<tr>
+<td>
+<p><ac:placeholder>Recruiter phone screen</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>@ Recruiter</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>e.g.,</ac:placeholder></p>
+<ul>
+<li>
+<p><ac:placeholder>Why are you leaving your current role?</ac:placeholder></p></li></ul></td></tr>
+<tr>
+<td>
+<p><ac:placeholder>Phone interview</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>@ Hiring manager</ac:placeholder></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p><ac:placeholder>In-person interviews</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>@ Interview panelist</ac:placeholder></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p><ac:placeholder>Whiteboard session</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>@ Interview panelist</ac:placeholder></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p><ac:placeholder>Group debrief</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>@ Recruiter</ac:placeholder></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p><ac:placeholder>Background check</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>@ Recruiter</ac:placeholder></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p><ac:placeholder>Reference check</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>@ Recruiter</ac:placeholder></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p><ac:placeholder>Job offer</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>@ Recruiter</ac:placeholder></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p><ac:placeholder>Onboarding plan</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>@ Hiring manager</ac:placeholder></p></td>
+<td>
+<p /></td></tr></tbody></table>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":tram:" ac:emoji-id="1f68a" ac:emoji-fallback="🚊" /> Candidate tracking</h2>
+<p><ac:placeholder>Include links to locations where the hiring manager can track the status of candidates in the pipeline. If you set expectations around timelines and communication plans, also include that in this section.</ac:placeholder></p>
+<table data-layout="default"><colgroup><col style="width: 170.0px;" /><col style="width: 590.0px;" /></colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour="#e3fcef">
+<p><strong>Expected Timeline</strong></p></td>
+<td>
+<p><ac:placeholder>e.g.,</ac:placeholder></p>
+<ul>
+<li>
+<p><ac:placeholder>Sourcing:</ac:placeholder><time datetime="2021-09-12" /></p></li>
+<li>
+<p><ac:placeholder>First round:</ac:placeholder><time datetime="2021-09-12" /></p></li></ul></td></tr>
+<tr>
+<td data-highlight-colour="#e3fcef">
+<p><strong>Communication Plan</strong></p></td>
+<td>
+<p><ac:placeholder>e.g.,</ac:placeholder></p>
+<ul>
+<li>
+<p><ac:placeholder>Weekly email / Slack updates</ac:placeholder></p></li>
+<li>
+<p><ac:placeholder>Bi-weekly 1-1s</ac:placeholder></p></li></ul></td></tr>
+<tr>
+<td data-highlight-colour="#e3fcef">
+<p><strong>Indeed Link</strong></p></td>
+<td>
+<p><ac:placeholder>e.g., https://www.indeed.jobs/</ac:placeholder></p></td></tr></tbody></table>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":sparkling_heart:" ac:emoji-id="1f496" ac:emoji-fallback="💖" /> Helpful resources</h2>
+<p><ac:placeholder>Include any resources you think would be helpful for your hiring manager and the interviewing team.</ac:placeholder></p>
+<ul>
+<li>
+<p><ac:placeholder>LinkedIn insights report</ac:placeholder></p></li>
+<li>
+<p><ac:placeholder>Market data</ac:placeholder></p></li>
+<li>
+<p><ac:placeholder>Systems training</ac:placeholder></p></li></ul>
+<p /><ac:adf-extension><ac:adf-node type="panel"><ac:adf-attribute key="panel-type">note</ac:adf-attribute><ac:adf-content>
+<p>Template all set? Pat yourself on the back! Now you need to get this out to a pool of candidates. Visit&nbsp;<a href="http://www.indeed.com/partner/confluence">www.indeed.com/partner/confluence</a>&nbsp;for $100 off your first job posting.</p></ac:adf-content></ac:adf-node><ac:adf-fallback>
+<div class="panel conf-macro output-block" style="background-color: rgb(234,230,255);border-color: rgb(153,141,217);border-width: 1.0px;">
+<div class="panelContent" style="background-color: rgb(234,230,255);">
+
+<p>Template all set? Pat yourself on the back! Now you need to get this out to a pool of candidates. Visit&nbsp;<a class="external-link" href="http://www.indeed.com/partner/confluence" rel="nofollow">www.indeed.com/partner/confluence</a>&nbsp;for $100 off your first job posting.</p>
+</div></div></ac:adf-fallback></ac:adf-extension>

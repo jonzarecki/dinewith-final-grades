@@ -1,0 +1,108 @@
+
+<table data-layout="default" ac:local-id="8f2a1dba-4c57-49df-9b10-7c071412c844"><colgroup><col style="width: 278.0px;" /><col style="width: 132.0px;" /><col style="width: 177.0px;" /><col style="width: 170.0px;" /></colgroup>
+<tbody>
+<tr>
+<th>
+<p class="media-group"><ac:structured-macro ac:name="view-file" ac:schema-version="1" ac:macro-id="e4da3c93-61f6-4c24-bf69-6d210764205e"><ac:parameter ac:name="name"><ri:attachment ri:filename="Invalid file id - d357d365-f57a-4789-8c19-9e49d5ef1019" ri:version-at-save="1" /></ac:parameter></ac:structured-macro></p>
+<p />
+<p>Driver</p></th>
+<th>
+<p>Approver</p></th>
+<th>
+<p>Contributors</p></th>
+<th>
+<p>Stakeholder</p></th></tr>
+<tr>
+<td>
+<p><ac:placeholder>@mention the driver</ac:placeholder></p></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>
+<table data-layout="default" ac:local-id="b3aabce5-654b-46a4-a5f4-7b4c70c84be8"><colgroup><col style="width: 197.0px;" /><col style="width: 562.0px;" /></colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour="#f0f0f0">
+<p><strong>Objective</strong></p></td>
+<td>
+<p><ac:placeholder>Summarize the objective in one sentence</ac:placeholder></p></td></tr>
+<tr>
+<td data-highlight-colour="#f0f0f0">
+<p><strong>Due date</strong></p></td>
+<td>
+<p><time datetime="2021-09-12" />&nbsp;</p></td></tr>
+<tr>
+<td data-highlight-colour="#f0f0f0">
+<p><strong>Key outcomes</strong></p></td>
+<td>
+<p><ac:placeholder>List expected outcomes and success metrics</ac:placeholder></p></td></tr>
+<tr>
+<td data-highlight-colour="#f0f0f0">
+<p><strong>Status</strong></p></td>
+<td>
+<p><ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="31640400-f619-4d91-b85b-b58f5daa7845"><ac:parameter ac:name="title">NOT STARTED</ac:parameter></ac:structured-macro></p></td></tr></tbody></table>
+<h2>Problem Statement</h2>
+<p><ac:placeholder>Describe the problem and its impact. Include the hypothesis that's driving your work (&quot;We think X will do Y, and we'll know we've succeeded if Z&quot;).</ac:placeholder></p>
+<h2>Scope</h2>
+<p>Must have:</p>
+<ul>
+<li>
+<p><ac:placeholder>Add your project's core requirements</ac:placeholder></p></li></ul>
+<p>Nice to have:</p>
+<ul>
+<li>
+<p><ac:placeholder>Add anything you want but don't strictly need</ac:placeholder></p></li></ul>
+<p>Not in scope:</p>
+<ul>
+<li>
+<p><ac:placeholder>Add anything you don't want to include</ac:placeholder></p></li></ul>
+<h2>Timeline</h2>
+<p><ac:placeholder>Use the roadmap planner (/roadmap) to help your team stay on track. To edit workstreams or dates, select the placeholder below and tap the pencil icon.</ac:placeholder></p><ac:structured-macro ac:name="roadmap" ac:schema-version="1" data-layout="default" ac:local-id="14f42fd4-7daf-4d9b-ad20-51b2986ef114" ac:macro-id="fd0244fc-139e-4f1d-ade2-fa864a9a7466"><ac:parameter ac:name="maplinks" /><ac:parameter ac:name="timeline">true</ac:parameter><ac:parameter ac:name="source">%7B%22title%22%3A%22Roadmap%20Planner%22%2C%22timeline%22%3A%7B%22startDate%22%3A%222018-03-15%2000%3A00%3A00%22%2C%22endDate%22%3A%222019-02-15%2000%3A00%3A00%22%2C%22displayOption%22%3A%22MONTH%22%7D%2C%22lanes%22%3A%5B%7B%22title%22%3A%22Lane%201%22%2C%22color%22%3A%7B%22lane%22%3A%22%23f6c342%22%2C%22bar%22%3A%22%23fadb8e%22%2C%22text%22%3A%22%23594300%22%2C%22count%22%3A1%7D%2C%22bars%22%3A%5B%7B%22title%22%3A%22Feature%201%22%2C%22description%22%3A%22This%20is%20the%20first%20bar.%22%2C%22startDate%22%3A%222018-03-01%2000%3A00%3A00%22%2C%22duration%22%3A2%2C%22rowIndex%22%3A0%2C%22id%22%3A%2299880195-7faf-4b2f-ac44-a38516c4cad5%22%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22title%22%3A%22Feature%202%22%2C%22description%22%3A%22This%20is%20the%20second%20bar.%22%2C%22startDate%22%3A%222018-04-29%2018%3A11%3A20%22%2C%22duration%22%3A1%2C%22rowIndex%22%3A1%2C%22id%22%3A%22604cae13-314a-4848-b142-95d3570aa3db%22%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22rowIndex%22%3A0%2C%22startDate%22%3A%222018-06-18%2022%3A48%3A03%22%2C%22id%22%3A%22739eee1a-3ad0-4154-a8a7-d630942c1b71%22%2C%22title%22%3A%22Feature%203%22%2C%22description%22%3A%22%22%2C%22duration%22%3A1.4356435643564356%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22rowIndex%22%3A1%2C%22startDate%22%3A%222018-07-12%2005%3A50%3A01%22%2C%22id%22%3A%22d2721513-87bf-4ea5-9981-d3971248c8f5%22%2C%22title%22%3A%22Feature%204%22%2C%22description%22%3A%22%22%2C%22duration%22%3A1.6633663366336633%2C%22pageLink%22%3A%7B%7D%7D%5D%7D%2C%7B%22title%22%3A%22Lane%202%22%2C%22color%22%3A%7B%22lane%22%3A%22%233b7fc4%22%2C%22bar%22%3A%22%236c9fd3%22%2C%22text%22%3A%22%23ffffff%22%2C%22count%22%3A1%7D%2C%22bars%22%3A%5B%7B%22title%22%3A%22iOS%20app%22%2C%22description%22%3A%22This%20is%20the%20third%20bar.%22%2C%22startDate%22%3A%222018-04-30%2018%3A34%3A20%22%2C%22duration%22%3A2.5%2C%22rowIndex%22%3A0%2C%22id%22%3A%22b10f9e72-539a-4a31-88bd-746bd09d7f1e%22%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22rowIndex%22%3A1%2C%22startDate%22%3A%222018-08-02%2004%3A07%3A33%22%2C%22id%22%3A%22e329a842-d49c-4f39-83ee-4d7af06dece7%22%2C%22title%22%3A%22Android%20app%22%2C%22description%22%3A%22%22%2C%22duration%22%3A1%2C%22pageLink%22%3A%7B%7D%7D%5D%7D%5D%2C%22markers%22%3A%5B%7B%22title%22%3A%22Marker%201%22%2C%22markerDate%22%3A%222018-03-15%2000%3A00%3A00%22%7D%5D%7D</ac:parameter><ac:parameter ac:name="pagelinks" /><ac:parameter ac:name="title">Roadmap%20Planner</ac:parameter><ac:parameter ac:name="hash">fc70fa9f6be331d992f8cc1fd2ad17b7</ac:parameter></ac:structured-macro>
+<p><ac:placeholder>Type /trello to add a card or board to this page or /jira to include a Jira issue, chart, or project.</ac:placeholder></p>
+<h2>Milestones and deadlines</h2>
+<p><ac:placeholder>Plot out milestones and deadlines using the table below. Put each milestone on its own row, @mention milestone owners, and type /date to quickly add deadlines.</ac:placeholder></p>
+<table data-layout="wide" ac:local-id="aed178f0-374d-458c-9e60-568567204d0c"><colgroup><col style="width: 262.0px;" /><col style="width: 133.0px;" /><col style="width: 133.0px;" /><col style="width: 133.0px;" /></colgroup>
+<tbody>
+<tr>
+<th>
+<p>Milestone</p></th>
+<th>
+<p>Owner</p></th>
+<th>
+<p>Deadline</p></th>
+<th>
+<p>Status</p></th></tr>
+<tr>
+<td>
+<p><ac:placeholder>e.g., Finalize designs for v1</ac:placeholder></p></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p><ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="e15aedc7-3cb9-4326-bfb8-7230706d0360"><ac:parameter ac:name="title">NOT STARTED</ac:parameter></ac:structured-macro></p></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>
+<h2>Reference materials</h2>
+<p><ac:placeholder>Add links to relevant research and any other key documents</ac:placeholder></p>
+<ul>
+<li>
+<p><br /></p></li></ul>

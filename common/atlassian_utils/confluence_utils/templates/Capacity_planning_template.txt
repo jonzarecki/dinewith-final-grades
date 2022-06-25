@@ -1,0 +1,94 @@
+
+<h2>Individual Time Allocation</h2><ac:structured-macro ac:name="note" ac:schema-version="1" ac:macro-id="1647fc02-e9bb-401d-941b-e0d8832b4526"><ac:rich-text-body>
+<p>We recommend doing this portion of the exercise on individual/private pages/notebooks.</p></ac:rich-text-body></ac:structured-macro>
+<h2>Team Capacity</h2>
+<table data-layout="default"><colgroup><col style="width: 128.0px;" /><col style="width: 128.0px;" /><col style="width: 128.0px;" /><col style="width: 128.0px;" /><col style="width: 128.0px;" /></colgroup>
+<tbody>
+<tr>
+<th>
+<p><strong>Role</strong></p></th>
+<th>
+<p><strong>Name</strong></p></th>
+<th>
+<p><strong>% of weekly time dedicated to project</strong></p></th>
+<th>
+<p><strong>Weekly hours on project</strong></p></th>
+<th>
+<p><strong>Sum by role</strong></p></th></tr>
+<tr>
+<td>
+<p><ac:placeholder>Group all teammates with the same role</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>@mention team member</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>e.g., 70%</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>e.g., 35</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>Sum 'weekly hours on project' for each role</ac:placeholder></p></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>

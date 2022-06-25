@@ -1,0 +1,45 @@
+# base environment for my utils
+name: common-environment
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.7
+  - pip
+  # Core scientific python
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scikit-image
+
+  # Deep Learning
+  - pytorch=>1.6
+  - pytorch-lightning=>1.1
+  - torchvision
+  - cudatoolkit
+
+  # Jupyter Environment
+  - autopep8
+  - notebook
+  - ipython
+  - jupyter_contrib_nbextensions
+  - jupyterlab
+  - jupyter
+  - nb_conda
+
+  # Web app / visualization
+  - bokeh>2
+  - holoviews
+
+  - pip:
+      - tensorflow>=2.1.0 # for complete feature-set tensorboard, not strictly necessary
+      - tensorboard>=2.1.0
+      - panel
+      - streamlit
+      - argparse
+      - pathos
+      - jupyterthemes
+      - sqlfluff # for sql linting

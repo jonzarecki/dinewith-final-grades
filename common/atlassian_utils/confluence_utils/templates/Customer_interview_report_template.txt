@@ -1,0 +1,76 @@
+
+<table data-layout="default"><colgroup><col style="width: 192.0px;" /><col style="width: 448.0px;" /></colgroup>
+<tbody>
+<tr>
+<th>
+<p><strong>Date of interview</strong></p></th>
+<td>
+<p><time datetime="2021-09-12" /></p></td></tr>
+<tr>
+<th>
+<p><strong>Interviewers</strong></p></th>
+<td>
+<p><ac:placeholder>@mention interviewer</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><strong>Customer name</strong></p></th>
+<td>
+<p /></td></tr>
+<tr>
+<th>
+<p><strong>Customer contact info</strong></p></th>
+<td>
+<p /></td></tr>
+<tr>
+<th>
+<p><strong>Company name</strong></p></th>
+<td>
+<p /></td></tr></tbody></table><ac:adf-extension><ac:adf-node type="panel"><ac:adf-attribute key="panel-type">note</ac:adf-attribute><ac:adf-content>
+<p><strong>Top takeaways</strong></p>
+<ul>
+<li>
+<p><ac:placeholder>List your top 2-3 takeaways from the interview</ac:placeholder></p></li>
+<li>
+<p>&nbsp;</p></li></ul></ac:adf-content></ac:adf-node><ac:adf-fallback>
+<div class="panel conf-macro output-block" style="background-color: rgb(234,230,255);border-color: rgb(153,141,217);border-width: 1.0px;">
+<div class="panelContent" style="background-color: rgb(234,230,255);">
+
+<p><strong>Top takeaways</strong></p>
+<ul>
+<li>
+<p> </p></li>
+<li>
+<p>&nbsp;</p></li></ul>
+</div></div></ac:adf-fallback></ac:adf-extension>
+<h2>Background</h2>
+<p><ac:placeholder>Add details about the customer, including their industry, role, and experience with your products</ac:placeholder></p><ac:structured-macro ac:name="expand" ac:schema-version="1" ac:macro-id="68534004-37ac-4a33-aba1-82ecc45366ce"><ac:parameter ac:name="title">Interview questions and answers</ac:parameter><ac:rich-text-body>
+<p><ac:placeholder>Put interview questions and answers here for reference. To change the title of the expand, tap the pencil icon.</ac:placeholder></p>
+<ul>
+<li>
+<p><ac:placeholder>Q1: Add your question</ac:placeholder></p>
+<ul>
+<li>
+<p><ac:placeholder>A1: Add the customer's answer</ac:placeholder></p></li></ul></li></ul></ac:rich-text-body></ac:structured-macro>
+<h2>Use cases</h2>
+<p><ac:placeholder>List the customer's use cases for your product or service</ac:placeholder></p>
+<ul>
+<li>
+<p>&nbsp;</p></li></ul>
+<h2>Observations</h2>
+<p><ac:placeholder>Highlight problems, takeaways, and opportunities you observed during the interview</ac:placeholder></p>
+<p><strong>Problem:</strong></p>
+<ul>
+<li>
+<p>Takeaway:</p></li>
+<li>
+<p>Opportunities:</p></li>
+<li>
+<p>Tickets: <ac:placeholder>Paste in related Jira tickets</ac:placeholder></p></li></ul>
+<p><strong>Problem:</strong></p>
+<ul>
+<li>
+<p>Takeaway:</p></li>
+<li>
+<p>Opportunities:</p></li>
+<li>
+<p>Tickets:</p></li></ul>

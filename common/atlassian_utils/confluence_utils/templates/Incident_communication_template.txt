@@ -1,0 +1,171 @@
+
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":writing_hand:" ac:emoji-id="270d" ac:emoji-fallback="✍" /> Defining an incident</h2>
+<p>Working to define what your business considers an incident will save you critical time and headspace when you're in the midst of a <a href="https://www.atlassian.com/incident-management">service outage</a>.</p>
+<ol>
+<li>
+<p><ac:placeholder>e.g., more than 10% of customers must be impacted</ac:placeholder></p></li>
+<li>
+<p /></li>
+<li>
+<p /></li></ol>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":performing_arts:" ac:emoji-id="1f3ad" ac:emoji-fallback="🎭" /> Incident roles &amp; responsibilities</h2>
+<p>List the current incident response roles at your company. If you don't have defined incident roles, check out <a href="https://www.atlassian.com/blog/opsgenie/incident-response-roles-in-opsgenie">this resource</a> to learn more about common setups.</p>
+<table data-layout="default"><colgroup><col style="width: 193.0px;" /><col style="width: 145.0px;" /><col style="width: 422.0px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#e3fcef">
+<p><strong>Role</strong></p></th>
+<th data-highlight-colour="#e3fcef">
+<p><strong>Owner</strong></p></th>
+<th data-highlight-colour="#e3fcef">
+<p><strong>Responsibilities</strong></p></th></tr>
+<tr>
+<td>
+<p><ac:placeholder>Major Incident Manager (MIM)</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>@ mention the Owner here</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>e.g.,</ac:placeholder></p>
+<ul>
+<li>
+<p><ac:placeholder>Assess the severity (service and customer impact)</ac:placeholder></p></li>
+<li>
+<p><ac:placeholder>Escalate to the appropriate people on-call</ac:placeholder></p></li>
+<li>
+<p><ac:placeholder>Track changes, decisions, and fixes (and confirm final fix)</ac:placeholder></p></li>
+<li>
+<p><ac:placeholder>Hold a post-incident review meeting</ac:placeholder></p></li>
+<li>
+<p><ac:placeholder>Decide if a public post-mortem is needed</ac:placeholder></p></li></ul></td></tr>
+<tr>
+<td>
+<p><ac:placeholder>Communication Officer</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>@ mention the Owner here</ac:placeholder></p></td>
+<td>
+<ul>
+<li>
+<p><ac:placeholder>Quickly identify the incident status</ac:placeholder></p></li>
+<li>
+<p><ac:placeholder>Pull in appropriate departments needed for communications</ac:placeholder></p></li>
+<li>
+<p><ac:placeholder>Provide public and internal updates</ac:placeholder></p></li>
+<li>
+<p><ac:placeholder>Decide the appropriate communication channels</ac:placeholder></p></li></ul></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":outbox_tray:" ac:emoji-id="1f4e4" ac:emoji-fallback="📤" /> Incident communication channels</h2>
+<p><ac:placeholder>Establish how and where you'll communicate updates to relevant audiences during an incident.</ac:placeholder></p>
+<table data-layout="default"><colgroup><col style="width: 183.0px;" /><col style="width: 187.0px;" /><col style="width: 199.0px;" /><col style="width: 191.0px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#fffae6">
+<p><strong>Communication channel or tool</strong></p></th>
+<th data-highlight-colour="#fffae6">
+<p><strong>When do we use it?</strong></p></th>
+<th data-highlight-colour="#fffae6">
+<p><strong>Who or which departments should use it?</strong></p></th>
+<th data-highlight-colour="#fffae6">
+<p><strong>How do we use/access it?</strong></p></th></tr>
+<tr>
+<td>
+<p><ac:placeholder>Where are you communicating with your customers? (e.g., Service desk, Statuspage, Twitter, email, chat tool)</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>What type of incidents do we use this for? (e.g., only incidents with x amount of customer impact, only incidents that last x hours long, Sev 1, 2)</ac:placeholder></p>
+<p /></td>
+<td>
+<p><ac:placeholder>Who is authorized/trained on communicating from this channel? (e.g., Product Marketing, Communication Lead)</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>Instructions on how to use it, how to get access/login info for it, etc. (e.g., Password, Ask for user account)</ac:placeholder></p></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":clipboard:" ac:emoji-id="1f4cb" ac:emoji-fallback="📋" /> Incident stage templates</h2>
+<p>The following are templates that can be sent as status updates during each phase of an incident. Go to <a href="https://www.atlassian.com/incident-management/incident-communication/templates">this page</a> to better understand how to write template copy. Templates are written generically and can be used as such if necessary, but it's helpful to add relevant details during an incident.</p>
+<table data-layout="default"><colgroup><col style="width: 144.0px;" /><col style="width: 616.0px;" /></colgroup>
+<tbody>
+<tr>
+<th>
+<p><strong>Incident stage</strong></p></th>
+<th>
+<p><strong>Template copy</strong></p></th></tr>
+<tr>
+<td>
+<p><ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="a9dc9a76-2b52-4889-96de-863bbba4a692"><ac:parameter ac:name="title">Investigating</ac:parameter></ac:structured-macro></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p><ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="a84858ce-e787-44f2-bf65-f27c189b9c8d"><ac:parameter ac:name="title">Identified</ac:parameter><ac:parameter ac:name="colour">Yellow</ac:parameter></ac:structured-macro></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p><ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="553b9b9d-82e4-446f-806b-6b5382fce1d0"><ac:parameter ac:name="title">Monitoring</ac:parameter><ac:parameter ac:name="colour">Blue</ac:parameter></ac:structured-macro></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p><ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="84bb602f-e03c-48c5-bc82-5da219b51354"><ac:parameter ac:name="title">Resolved</ac:parameter><ac:parameter ac:name="colour">Green</ac:parameter></ac:structured-macro></p></td>
+<td>
+<p /></td></tr></tbody></table>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":sparkles:" ac:emoji-id="2728" ac:emoji-fallback="✨" /> Incident values</h2>
+<p>Even the most comprehensive incident response plan lacks guidance for more subjective, nuanced situations that can and will arise when $#*! hits the fan. Incident values act as a north star for aligned decision making during incident response. Feel free to use Atlassian's incident values or work with your team to create your own! Want to learn more? <a href="http://www.atlassian.com/team-playbook/plays/incident-values">Run our incident values workshop with your team</a>.</p>
+<table data-layout="default"><colgroup><col style="width: 151.0px;" /><col style="width: 609.0px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#fffae6">
+<p><strong>Company value</strong></p></th>
+<th data-highlight-colour="#fffae6">
+<p><strong>Explanation</strong></p></th></tr>
+<tr>
+<td>
+<p><ac:placeholder>Detect</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>We know there is a problem before our customers do.</ac:placeholder></p></td></tr>
+<tr>
+<td>
+<p><ac:placeholder>Respond</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>Escalate, escalate, escalate (and communicate with customers).</ac:placeholder></p></td></tr>
+<tr>
+<td>
+<p><ac:placeholder>Improve</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>$#!% happens, clean it up quickly.</ac:placeholder></p></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>

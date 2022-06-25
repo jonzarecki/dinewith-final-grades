@@ -1,0 +1,216 @@
+<ac:adf-extension><ac:adf-node type="panel"><ac:adf-attribute key="panel-type">note</ac:adf-attribute><ac:adf-content>
+<h2><ac:inline-comment-marker ac:ref="106e1c50-ba01-456f-b2c6-d761a568c374">Team mission</ac:inline-comment-marker></h2>
+<p><ac:placeholder>Add your team's mission here.</ac:placeholder></p></ac:adf-content></ac:adf-node><ac:adf-fallback>
+<div class="panel conf-macro output-block" style="background-color: rgb(234,230,255);border-color: rgb(153,141,217);border-width: 1.0px;">
+<div class="panelContent" style="background-color: rgb(234,230,255);">
+
+<h2><span class="inline-comment-marker">Team mission</span></h2>
+<p> </p>
+</div></div></ac:adf-fallback></ac:adf-extension>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":link:" ac:emoji-id="1f517" ac:emoji-fallback="🔗" /> Project information</h2>
+<ul>
+<li>
+<p><ac:placeholder>Use this panel to add information about OKRs, strategy and links to Jira projects</ac:placeholder></p></li>
+<li>
+<p /></li></ul>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":clipboard:" ac:emoji-id="1f4cb" ac:emoji-fallback="📋" /> Roadmap overview</h2>
+<p><ac:placeholder>Use this roadmap macro to provide a visual overview of the roadmap. Lanes can be used to capture projects and bars to show schedule for features or parts of a project</ac:placeholder></p><ac:structured-macro ac:name="roadmap" ac:schema-version="1" data-layout="default" ac:macro-id="ad0479cf-3bac-43da-a3c2-04ed56c7e7d3"><ac:parameter ac:name="maplinks" /><ac:parameter ac:name="timeline">true</ac:parameter><ac:parameter ac:name="source">%7B%22title%22%3A%22Roadmap%20Planner%22%2C%22timeline%22%3A%7B%22startDate%22%3A%222020-01-30%2000%3A00%3A00%22%2C%22endDate%22%3A%222020-12-30%2000%3A00%3A00%22%2C%22displayOption%22%3A%22MONTH%22%7D%2C%22lanes%22%3A%5B%7B%22title%22%3A%22Initiative%201%22%2C%22color%22%3A%7B%22lane%22%3A%22%23f15c75%22%2C%22bar%22%3A%22%23f58598%22%2C%22text%22%3A%22%23ffffff%22%2C%22count%22%3A1%7D%2C%22bars%22%3A%5B%7B%22title%22%3A%22Feature%201%22%2C%22description%22%3A%22This%20is%20the%20first%20bar.%22%2C%22startDate%22%3A%222020-01-01%2000%3A00%3A00%22%2C%22duration%22%3A2%2C%22rowIndex%22%3A0%2C%22id%22%3A%228d41c4f2-91dc-483a-b3d8-9de23e8f00cd%22%2C%22pageLink%22%3A%7B%7D%7D%2C%7B%22title%22%3A%22Feature%202%22%2C%22description%22%3A%22This%20is%20the%20second%20bar.%22%2C%22startDate%22%3A%222020-02-14%2011%3A52%3A52%22%2C%22duration%22%3A1%2C%22rowIndex%22%3A1%2C%22id%22%3A%22fdb6b042-42aa-47a8-8cce-5a013e355172%22%2C%22pageLink%22%3A%7B%7D%7D%5D%7D%2C%7B%22title%22%3A%22Initiative%202%22%2C%22color%22%3A%7B%22lane%22%3A%22%233b7fc4%22%2C%22bar%22%3A%22%236c9fd3%22%2C%22text%22%3A%22%23ffffff%22%2C%22count%22%3A1%7D%2C%22bars%22%3A%5B%7B%22title%22%3A%22Feature%203%22%2C%22description%22%3A%22This%20is%20the%20third%20bar.%22%2C%22startDate%22%3A%222020-02-03%2000%3A14%3A15%22%2C%22duration%22%3A2.5%2C%22rowIndex%22%3A0%2C%22id%22%3A%2202165d8e-dbe6-4bf1-9c36-e07db0634145%22%2C%22pageLink%22%3A%7B%7D%7D%5D%7D%5D%2C%22markers%22%3A%5B%7B%22title%22%3A%22Marker%201%22%2C%22markerDate%22%3A%222020-01-15%2000%3A00%3A00%22%7D%5D%7D</ac:parameter><ac:parameter ac:name="pagelinks" /><ac:parameter ac:name="title">Roadmap%20Planner</ac:parameter><ac:parameter ac:name="hash">2bffe452728ea037f26c7e9656650eef</ac:parameter></ac:structured-macro>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":mag:" ac:emoji-id="1f50d" ac:emoji-fallback="🔍" /> Detailed quarterly roadmap</h2>
+<p><ac:placeholder>The roadmap shows the sequence in which you execute on features. In addition to strategic priority, the execution order is dependent on factors such as team composition and external dependencies. Features from different broader initatives may get interleaved. If you have your roadmap set up in Jira, you can embed that below. </ac:placeholder></p>
+<h3>Q1</h3>
+<table data-layout="default"><colgroup><col style="width: 121.0px;" /><col style="width: 121.0px;" /><col style="width: 108.0px;" /><col style="width: 120.0px;" /><col style="width: 133.0px;" /><col style="width: 139.0px;" /><col style="width: 139.0px;" /></colgroup>
+<tbody>
+<tr>
+<th>
+<p><strong>Feature</strong></p></th>
+<th>
+<p><strong>Initiative</strong></p></th>
+<th>
+<p><strong>Dates</strong></p></th>
+<th>
+<p><strong>Priority</strong></p></th>
+<th>
+<p><strong>Effort</strong></p></th>
+<th>
+<p><strong>Status</strong></p></th>
+<th>
+<p><strong>Notes</strong></p></th></tr>
+<tr>
+<td>
+<p><ac:placeholder>List feature</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>List initiative that feature belongs to</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>Type /date to add a date range</ac:placeholder></p></td>
+<td>
+<p><ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="7489730c-d8b4-450a-ba16-3bfdcddfa4e0"><ac:parameter ac:name="title">High</ac:parameter><ac:parameter ac:name="colour">Red</ac:parameter></ac:structured-macro> /<ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="47918a68-8dd2-47f2-b2fd-b3fd4c99dba3"><ac:parameter ac:name="title">Medium</ac:parameter><ac:parameter ac:name="colour">Blue</ac:parameter></ac:structured-macro> /<ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="984ee8e2-b67b-45ad-a33d-2859f03d2549"><ac:parameter ac:name="title">Low</ac:parameter><ac:parameter ac:name="colour">Yellow</ac:parameter></ac:structured-macro></p></td>
+<td>
+<p><ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="5e05cc1c-64d1-4456-b81b-c63d251c1958"><ac:parameter ac:name="title">High</ac:parameter><ac:parameter ac:name="colour">Red</ac:parameter></ac:structured-macro> /<ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="3c40d56f-6ad8-4280-827e-dce0e53fb6c1"><ac:parameter ac:name="title">Medium</ac:parameter><ac:parameter ac:name="colour">Blue</ac:parameter></ac:structured-macro> /<ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="533d079e-c081-46b0-b1a2-a36372b5ee4b"><ac:parameter ac:name="title">Low</ac:parameter><ac:parameter ac:name="colour">Yellow</ac:parameter></ac:structured-macro></p></td>
+<td>
+<p><ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="e5eacaba-3469-4750-83f0-6149ba06ec50"><ac:parameter ac:name="title">In progress</ac:parameter><ac:parameter ac:name="colour">Yellow</ac:parameter></ac:structured-macro> /<ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="d44e0b2b-99d0-4f28-8d72-c0091d27a769"><ac:parameter ac:name="title">not started</ac:parameter></ac:structured-macro> /<ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="39db0406-3a28-4eda-86a7-f8048ad82b35"><ac:parameter ac:name="title">Shipped</ac:parameter><ac:parameter ac:name="colour">Green</ac:parameter></ac:structured-macro></p>
+<p /></td>
+<td>
+<p><ac:placeholder>Link to project pages and epics</ac:placeholder></p></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>
+<h3>Q2</h3>
+<table data-layout="default"><colgroup><col style="width: 111.0px;" /><col style="width: 111.0px;" /><col style="width: 114.0px;" /><col style="width: 124.0px;" /><col style="width: 133.0px;" /><col style="width: 139.0px;" /><col style="width: 139.0px;" /></colgroup>
+<tbody>
+<tr>
+<th>
+<p><strong>Feature</strong></p></th>
+<th>
+<p><strong>Initiative</strong></p></th>
+<th>
+<p><strong>Dates</strong></p></th>
+<th>
+<p><strong>Priority</strong></p></th>
+<th>
+<p><strong>Effort</strong></p></th>
+<th>
+<p><strong>Status</strong></p></th>
+<th>
+<p><strong>Notes</strong></p></th></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>
+<h3>Q3</h3>
+<table data-layout="default"><colgroup><col style="width: 111.0px;" /><col style="width: 111.0px;" /><col style="width: 114.0px;" /><col style="width: 124.0px;" /><col style="width: 133.0px;" /><col style="width: 139.0px;" /><col style="width: 139.0px;" /></colgroup>
+<tbody>
+<tr>
+<th>
+<p><strong>Feature</strong></p></th>
+<th>
+<p><strong>Initiative</strong></p></th>
+<th>
+<p><strong>Dates</strong></p></th>
+<th>
+<p><strong>Priority</strong></p></th>
+<th>
+<p><strong>Effort</strong></p></th>
+<th>
+<p><strong>Status</strong></p></th>
+<th>
+<p><strong>Notes</strong></p></th></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>
+<h3>Q4</h3>
+<table data-layout="default"><colgroup><col style="width: 111.0px;" /><col style="width: 111.0px;" /><col style="width: 114.0px;" /><col style="width: 124.0px;" /><col style="width: 133.0px;" /><col style="width: 139.0px;" /><col style="width: 139.0px;" /></colgroup>
+<tbody>
+<tr>
+<th>
+<p><strong>Feature</strong></p></th>
+<th>
+<p><strong>Initiative</strong></p></th>
+<th>
+<p><strong>Dates</strong></p></th>
+<th>
+<p><strong>Priority</strong></p></th>
+<th>
+<p><strong>Effort</strong></p></th>
+<th>
+<p><strong>Status</strong></p></th>
+<th>
+<p><strong>Notes</strong></p></th></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>
+<p />

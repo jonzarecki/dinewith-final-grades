@@ -1,0 +1,76 @@
+
+<table data-layout="wide"><colgroup><col style="width: 253.44px;" /><col style="width: 253.44px;" /><col style="width: 253.44px;" /></colgroup>
+<tbody>
+<tr>
+<td>
+<h3><strong>How does this project fit into your broader strategy?</strong></h3></td>
+<td>
+<h3><strong>Team</strong></h3>
+<p><strong>Project owner: </strong><ac:placeholder>Name of project owner</ac:placeholder></p>
+<p><strong>Team members: </strong><ac:placeholder>Add the team members</ac:placeholder></p></td>
+<td>
+<h3><strong>Status</strong></h3>
+<p><ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="d6088651-cc02-416e-b537-b4efadf0e667"><ac:parameter ac:name="title">PENDING</ac:parameter></ac:structured-macro></p></td></tr></tbody></table>
+<table data-layout="wide"><colgroup><col style="width: 230.4px;" /><col style="width: 537.6px;" /></colgroup>
+<tbody>
+<tr>
+<th colspan="2">
+<h2 style="text-align: center;"><strong>Problem Space</strong></h2></th></tr>
+<tr>
+<td>
+<h3><strong>Why are we doing this?</strong></h3></td>
+<td>
+<h4><strong>Problem statement:</strong></h4>
+<h4><strong>Impact of this problem:</strong></h4></td></tr>
+<tr>
+<td>
+<h3><strong>How do we judge success?</strong></h3></td>
+<td>
+<p><ac:placeholder>Draft specific and measurable goals before progressing to the &quot;Ready to make it&quot; section</ac:placeholder></p></td></tr>
+<tr>
+<td>
+<h3><strong>What are possible solutions?</strong></h3></td>
+<td>
+<p /></td></tr></tbody></table>
+<table data-layout="wide"><colgroup><col style="width: 230.4px;" /><col style="width: 537.6px;" /></colgroup>
+<tbody>
+<tr>
+<th colspan="2">
+<h2 style="text-align: center;"><strong>Validation</strong></h2></th></tr>
+<tr>
+<td>
+<h3><strong>What do we already know?</strong></h3></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<h3><strong>What do we need to answer?</strong></h3></td>
+<td>
+<p /></td></tr></tbody></table>
+<table data-layout="wide"><colgroup><col style="width: 230.4px;" /><col style="width: 537.6px;" /></colgroup>
+<tbody>
+<tr>
+<th colspan="2">
+<h2 style="text-align: center;"><strong>Ready to make it</strong></h2></th></tr>
+<tr>
+<td>
+<h3><strong>What are we doing?</strong></h3></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<h3><strong>Why will a customer want this?</strong></h3></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<h3><strong>Visualize the solution</strong></h3></td>
+<td>
+<p><ac:placeholder>Show what you're building with screenshots, white board sketches, etc.</ac:placeholder></p></td></tr>
+<tr>
+<td>
+<h3><strong>Scale and scope</strong></h3></td>
+<td>
+<p><ac:placeholder>Estimate the team size (S, M, L, XL) and define what is/is not included</ac:placeholder></p></td></tr></tbody></table>
+<p /><ac:structured-macro ac:name="info" ac:schema-version="1" ac:macro-id="2b057133-be50-49c5-a42f-636b60975970"><ac:rich-text-body>
+<p>For Project Poster pro tips from Atlassian teams visit: <a href="https://www.atlassian.com/team-playbook/plays/project-poster">https://www.atlassian.com/team-playbook/plays/project-poster</a></p></ac:rich-text-body></ac:structured-macro>

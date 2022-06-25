@@ -1,14 +1,11 @@
 # Common loguru logger config for project
 import json
+import logging  # noqa
 
 import requests
 from loguru import logger
 
-import logging  # noqa
-
-
 logger.add("../out.log", backtrace=True, diagnose=True, rotation="1 week")  # Caution, may leak sensitive data in prod
-
 
 ERRBOT_WEBSERVER_URL = "http://localhost:3141/send_message"
 ERRBOT_PROJECT_CHANNEL_ID = "#general"

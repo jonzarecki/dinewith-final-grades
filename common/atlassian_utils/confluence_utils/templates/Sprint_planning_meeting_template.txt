@@ -1,0 +1,198 @@
+<ac:structured-macro ac:name="info" ac:schema-version="1" ac:macro-id="5d45e9b3-d551-4164-bbf1-5468e24bf7b6"><ac:rich-text-body>
+<p>This template is brought to you by Jira, Atlassian's project and issue tracker. Customize this template with information and resources your team uses each sprint to save prep time.</p></ac:rich-text-body></ac:structured-macro>
+<hr /><ac:structured-macro ac:name="toc" ac:schema-version="1" data-layout="default" ac:macro-id="c01b9a72-fd8c-4985-b8f3-ad43d9e4158d"><ac:parameter ac:name="maxLevel">3</ac:parameter><ac:parameter ac:name="minLevel">2</ac:parameter><ac:parameter ac:name="separator">pipe</ac:parameter></ac:structured-macro>
+<hr />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":white_check_mark:" ac:emoji-id="2705" ac:emoji-fallback="✅" /> Sprint planning checklist</h2>
+<p><ac:placeholder>Keep track of tasks you need to complete before, during, and after your sprint planning meeting. Follow up by updating and adding Jira tickets to your template.</ac:placeholder></p>
+<table data-layout="default"><colgroup><col style="width: 226.67px;" /><col style="width: 226.67px;" /><col style="width: 226.67px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#e3fcef">
+<p><strong>Preparation</strong></p></th>
+<th data-highlight-colour="#e3fcef">
+<p><strong>Meeting</strong></p></th>
+<th data-highlight-colour="#e3fcef">
+<p><strong>Follow up</strong></p></th></tr>
+<tr>
+<td><ac:task-list>
+<ac:task>
+<ac:task-id>1</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body><span class="placeholder-inline-tasks"><ac:placeholder>e.g., organize the backlog and close the last sprint</ac:placeholder></span></ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>2</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+
+</ac:task>
+</ac:task-list></td>
+<td><ac:task-list>
+<ac:task>
+<ac:task-id>3</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body><span class="placeholder-inline-tasks"><ac:placeholder>e.g., present velocity and confirm team capacity</ac:placeholder></span></ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>4</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+
+</ac:task>
+</ac:task-list></td>
+<td><ac:task-list>
+<ac:task>
+<ac:task-id>5</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body><span class="placeholder-inline-tasks"><ac:placeholder>e.g., update JIRA tickets</ac:placeholder></span></ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>6</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+
+</ac:task>
+</ac:task-list></td></tr></tbody></table>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":busts_in_silhouette:" ac:emoji-id="1f465" ac:emoji-fallback="👥" /> Sprint team members</h2>
+<table data-layout="default"><colgroup><col style="width: 252.0px;" /><col style="width: 507.0px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#deebff">
+<p><strong>Name</strong></p></th>
+<th data-highlight-colour="#deebff">
+<p><strong>Role</strong></p></th></tr>
+<tr>
+<td>
+<p><ac:placeholder>@ mention team member</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>e.g., Scrum Master</ac:placeholder></p></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":pencil2:" ac:emoji-id="270f" ac:emoji-fallback="✏" /> Sprint planning meeting items</h2>
+<p>Use this template to structure your meeting, set expectations and goals, and define the backlog for the upcoming sprint. For detailed instructions and best practices, see our <a href="https://www.atlassian.com/agile/scrum/sprint-planning">sprint planning guide</a> and review how to <a href="https://www.atlassian.com/agile/project-management/estimation">estimate story points</a>.</p>
+<h3>Agenda</h3>
+<p><ac:placeholder>Start by reviewing and closing the previous sprint. Then review your capacity and pull stories for the new sprint. Make sure to check incomplete stories and move them to the backlog or sprint depending on priority.</ac:placeholder></p>
+<ol>
+<li>
+<p><ac:placeholder>e.g., Close previous sprint</ac:placeholder></p></li>
+<li>
+<p /></li></ol>
+<h3>Previous sprint summary</h3>
+<table data-layout="default"><colgroup><col style="width: 130.0px;" /><col style="width: 629.0px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#fffae6">
+<p><strong>Sprint theme</strong></p></th>
+<th data-highlight-colour="#ffffff">
+<p><ac:placeholder>e.g., Bugs</ac:placeholder></p></th></tr>
+<tr>
+<td data-highlight-colour="#fffae6">
+<p><strong>Story points</strong></p></td>
+<td>
+<p><ac:placeholder>Review story points for the previous sprint and note what was committed, pulled in, and completed.</ac:placeholder></p></td></tr>
+<tr>
+<td data-highlight-colour="#fffae6">
+<p><strong>Summary</strong></p></td>
+<td>
+<p><ac:placeholder>Describe what your team achieved during the previous sprint.</ac:placeholder></p></td></tr></tbody></table>
+<h3>Details</h3>
+<table data-layout="default"><colgroup><col style="width: 130.0px;" /><col style="width: 629.0px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#fffae6">
+<p><strong>Start date</strong></p></th>
+<th data-highlight-colour="#ffffff">
+<p><ac:placeholder>Type // to add a date using a calendar.</ac:placeholder></p></th></tr>
+<tr>
+<td data-highlight-colour="#fffae6">
+<p><strong>End date</strong></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td data-highlight-colour="#fffae6">
+<p><strong>Sprint theme</strong></p></td>
+<td>
+<p><ac:placeholder>e.g., Bugs</ac:placeholder></p></td></tr></tbody></table>
+<h3>Velocity tracking</h3>
+<p><ac:placeholder>Type /link to attach your Jira velocity report.</ac:placeholder></p>
+<h3>Adjusted velocity tracking</h3>
+<p><ac:placeholder>Type /link to attach your adjusted Jira velocity report. This report should adjust for varying sprint lengths and working schedules.</ac:placeholder></p>
+<h3>Capacity planning</h3><ac:structured-macro ac:name="tip" ac:schema-version="1" ac:macro-id="cc5493a2-ace7-4908-8d04-18dda8e3f172"><ac:rich-text-body>
+<p>You can customize this template to change or add capacity measurements. You can also review older sprints by adding columns.</p></ac:rich-text-body></ac:structured-macro>
+<table data-layout="default"><colgroup><col style="width: 139.0px;" /><col style="width: 236.0px;" /><col style="width: 284.0px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#fffae6">
+<p /></th>
+<th data-highlight-colour="#fffae6">
+<p><strong>Current sprint</strong></p></th>
+<th data-highlight-colour="#fffae6">
+<p><strong>Previous sprint</strong></p></th></tr>
+<tr>
+<td data-highlight-colour="#fffae6">
+<p><strong>Total days</strong></p></td>
+<td>
+<p><ac:placeholder>e.g., 10 days</ac:placeholder></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td data-highlight-colour="#fffae6">
+<p><strong>Team capacity</strong></p></td>
+<td>
+<p><ac:placeholder>e.g., 80%</ac:placeholder></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td data-highlight-colour="#fffae6">
+<p><strong>Projected capacity</strong></p></td>
+<td>
+<p><ac:placeholder>e.g., 50 points</ac:placeholder></p></td>
+<td>
+<p /></td></tr>
+<tr>
+<td data-highlight-colour="#fffae6">
+<p><strong>Individual capacity</strong></p></td>
+<td>
+<p><ac:placeholder>@ member</ac:placeholder></p></td>
+<td>
+<p /></td></tr></tbody></table>
+<h3>Potential risks</h3>
+<table data-layout="default"><colgroup><col style="width: 340.0px;" /><col style="width: 340.0px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#fffae6">
+<p><strong>Risk</strong></p></th>
+<th data-highlight-colour="#fffae6">
+<p><strong>Mitigation</strong></p></th></tr>
+<tr>
+<td>
+<p><ac:placeholder>e.g., The team has a smaller buffer than they expected</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>e.g., The team might need to move low priority work to the backlog</ac:placeholder></p>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":books:" ac:emoji-id="1f4da" ac:emoji-fallback="??" /> Sprint planning resources</h2>
+<h3>Sprint boards and retrospectives</h3>
+<ul>
+<li>
+<p><ac:placeholder>Add links to your sprint board and retros from previous sprints.</ac:placeholder></p></li>
+<li>
+<p /></li></ul>
+<h3>Team resources and definitions</h3>
+<ul>
+<li>
+<p><ac:placeholder>List key terms and their definitions, and link to guidelines, tools, and other resources.</ac:placeholder></p></li>
+<li>
+<p /></li></ul>

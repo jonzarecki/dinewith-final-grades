@@ -1,0 +1,135 @@
+<ac:adf-extension><ac:adf-node type="panel"><ac:adf-attribute key="panel-type">note</ac:adf-attribute><ac:adf-content>
+<p>This template is brought to you by Indeed, a leading job search engine.</p></ac:adf-content></ac:adf-node><ac:adf-fallback>
+<div class="panel conf-macro output-block" style="background-color: rgb(234,230,255);border-color: rgb(153,141,217);border-width: 1.0px;">
+<div class="panelContent" style="background-color: rgb(234,230,255);">
+
+<p>This template is brought to you by Indeed, a leading job search engine.</p>
+</div></div></ac:adf-fallback></ac:adf-extension>
+<p /><ac:structured-macro ac:name="details" ac:schema-version="1" data-layout="default" ac:macro-id="65616f8a-2dbf-4417-b45e-79659e564a00"><ac:rich-text-body>
+<table data-layout="default"><colgroup><col style="width: 158.0px;" /><col style="width: 568.0px;" /></colgroup>
+<tbody>
+<tr>
+<th>
+<p><strong>Candidate</strong></p></th>
+<td>
+<p><ac:placeholder>e.g., Helena Johnson</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><strong>Interviewer</strong></p></th>
+<td>
+<p><ac:placeholder>@ mention the interviewer</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><strong>Recruiter</strong></p></th>
+<td>
+<p><ac:placeholder>@ mention the recruiter</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><strong>Job title</strong></p></th>
+<td>
+<p><ac:placeholder>e.g., Design Manager</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><ac:inline-comment-marker ac:ref="40925ac2-2e2b-4cb7-a6ab-f14329e75d64"><strong>Job level</strong></ac:inline-comment-marker></p></th>
+<td>
+<p><ac:placeholder>e.g., M4</ac:placeholder></p></td></tr>
+<tr>
+<th>
+<p><strong>Recommendation</strong></p></th>
+<td>
+<p><ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="f2f738f7-74ae-4ee0-b4b7-01106cc21e46"><ac:parameter ac:name="title">hire</ac:parameter><ac:parameter ac:name="colour">Green</ac:parameter></ac:structured-macro> / <ac:structured-macro ac:name="status" ac:schema-version="1" ac:macro-id="9c194398-3e7a-44d3-a618-71d83b0d85e0"><ac:parameter ac:name="title">no hire</ac:parameter><ac:parameter ac:name="colour">Red</ac:parameter></ac:structured-macro></p></td></tr>
+<tr>
+<th>
+<p><strong>Summary justification</strong></p></th>
+<td>
+<p /></td></tr></tbody></table></ac:rich-text-body></ac:structured-macro>
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":dividers:" ac:emoji-id="1f5c2" ac:emoji-fallback="🗂" /> Candidate background </h2>
+<p><ac:placeholder>Include any context you've received on the candidate or the role, as well as any instructions the recruiter or hiring manager has given you. </ac:placeholder></p>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":pencil2:" ac:emoji-id="270f" ac:emoji-fallback="✏" /> Interview notes</h2>
+<p>Add your questions to the table below ahead of time, then take notes on the candidate's responses during your interview with them.</p>
+<table data-layout="default"><colgroup><col style="width: 372.0px;" /><col style="width: 388.0px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#fffae6">
+<p><strong>Question</strong></p></th>
+<th data-highlight-colour="#fffae6">
+<p><strong>Notes</strong></p></th></tr>
+<tr>
+<td>
+<p><ac:placeholder>e.g., Describe the last project you worked on. What problem were you trying to solve and how did you go about it? What challenges did you face along the way?</ac:placeholder></p>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table>
+<p />
+<h2><ac:emoticon ac:name="blue-star" ac:emoji-shortname=":white_check_mark:" ac:emoji-id="2705" ac:emoji-fallback="✅" /> <ac:inline-comment-marker ac:ref="af7fdd16-61c8-41ff-8c24-5a5ff9ea63dd">Feedback</ac:inline-comment-marker></h2>
+<p>For each skill or ability, give the candidate a score from 1 (poor) to 5 (excellent). Be conscious of the potential for bias, and support your score with 1-2 specific examples from your interview.</p>
+<table data-layout="wide"><colgroup><col style="width: 272.0px;" /><col style="width: 241.0px;" /><col style="width: 68.0px;" /><col style="width: 340.0px;" /></colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour="#e3fcef">
+<p><strong>Skill or capability</strong></p></th>
+<th data-highlight-colour="#e3fcef">
+<p><strong>Scoring rubric</strong></p></th>
+<th data-highlight-colour="#e3fcef">
+<p><ac:inline-comment-marker ac:ref="5b78bd70-5b4f-44cb-b422-13ab8e97eca6"><strong>Score (1-5)</strong></ac:inline-comment-marker></p></th>
+<th data-highlight-colour="#e3fcef">
+<p><strong>Justification</strong></p></th></tr>
+<tr>
+<td>
+<p><ac:placeholder>Give the name and definition of each skill or capability you were able to assess in your interview.</ac:placeholder></p></td>
+<td>
+<p><ac:placeholder>Before your interview, come up with a shared definition of what potential scores mean and write it down here.</ac:placeholder></p></td>
+<td>
+<p /></td>
+<td>
+<p><ac:placeholder>Explain why you gave the candidate this score. Refer to scoring rubric and include 1-2 examples to support your case.</ac:placeholder></p>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr>
+<tr>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td>
+<td>
+<p /></td></tr></tbody></table><ac:structured-macro ac:name="expand" ac:schema-version="1" ac:macro-id="c4da23e2-dd97-4e92-a648-167165aea7f9"><ac:parameter ac:name="title">📌Notes on bias</ac:parameter><ac:rich-text-body>
+<p><ac:inline-comment-marker ac:ref="fe0e718b-9d6f-4d50-acdb-7618b285472e">It's easy for bias to creep in when we're interviewing and evaluating job candidates. Awareness of bias can help you avoid it in your feedback. Some common biases are:</ac:inline-comment-marker></p>
+<ul>
+<li>
+<p><strong>Similarity bias.</strong> We tend to prefer candidates with similar backgrounds, experiences, or characteristics to ourselves.</p></li>
+<li>
+<p><strong>Halo / horns bias. </strong>We often give too much weight to a single example or incident from an interview, allowing it to strongly influence our opinion about a candidate.</p></li>
+<li>
+<p><strong>Confirmation bias.</strong> We sometimes form opinions about a candidate before we meet them based on their resume, work samples, etc., and look for evidence that confirms our opinions when we're interviewing the candidate.</p></li>
+<li>
+<p><strong>Performance bias.</strong> This type of bias occurs when people who are part of dominant groups, such as whites or men, are judged by their expected potential, while those who are part of less dominant groups, such as people of color or women, are judged by proven accomplishments.</p></li>
+<li>
+<p><strong>Performance attribution bias.</strong> When it comes to decision-making, unconscious biases cause some people to be perceived as &quot;naturally talented,&quot; while others are presumed to have &quot;gotten lucky.&quot; People on the receiving end of these biases are less likely to receive credit for their ideas, are interrupted more often during team interactions and have less influence on teams.</p></li>
+<li>
+<p><strong>Competence / likability tradeoff bias.</strong> Research shows that success and likeability are positively correlated for men and negatively correlated for women. Women are expected to be nurturing and caretaking, while men are expected to be assertive and action-oriented. Having to produce results and be liked makes it harder for women to get hired and promoted, negotiate on their own behalf, and exhibit leadership.</p></li></ul>
+<p>The best way to prevent unconscious bias from affecting decision-making is to develop a standard set of role-relevant behavioral interview questions and a framework for evaluating responses to those questions. Structured, behavioral interviews remain the best approach for mitigating the influence of bias in the decision making process.</p></ac:rich-text-body></ac:structured-macro>
+<p />
+<h2><ac:emoticon ac:name="question" ac:emoji-shortname=":question_mark:" ac:emoji-id="atlassian-question_mark" ac:emoji-fallback=":question_mark:" /> Open questions</h2>
+<p><ac:placeholder>List any questions or concerns you have about the candidate based on your session, so that other interviewers can follow up on them.</ac:placeholder></p>
+<p />
+<p />
