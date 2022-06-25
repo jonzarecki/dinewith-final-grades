@@ -1,11 +1,14 @@
 import itertools
+import os
+import sys
 from typing import Dict, List, Tuple
 
 import pandas as pd
 import streamlit as st
 from st_aggrid import AgGrid
 
-from dinewith.participant import Participant
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+from dinewith.participant import Participant  # pylint: disable=wrong-import-position
 
 st.title("Final Grade Computation")
 
