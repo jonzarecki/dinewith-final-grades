@@ -11,3 +11,5 @@ dependencies:
       - loguru
       - streamlit-aggrid
       - streamlit
+      - colormath
+      - gcsa
