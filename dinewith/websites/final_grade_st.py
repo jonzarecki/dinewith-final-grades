@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 from st_aggrid import AgGrid
 
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 from dinewith.participant import Participant  # pylint: disable=wrong-import-position
 
 st.title("Final Grade Computation")
